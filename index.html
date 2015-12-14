@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Theme for BuddyNest -->
+    <title>BuddyNest</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="js/menu.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="css/index_style.css">
+</head>
+
+	<body>
+		<div class="headMenu">
+			<div id = "wrapper">
+				<div class="logo">
+					<a href = "index.html"><img src="./img/BuddNest logo1.png"></a>
+				</div>
+
+				<div class="search_box">
+					<form action = "search.php" method = "GET" id = "search">
+						<input type="text" name="q" size="40" placeholder = "Search..." />
+					</form>
+				</div>
+				
+				<div id = "menu">
+					<ul>
+						<li onMouseOver="javascript:showMenu('')" onMouseOut="javascript:hideMenu('')"><a href="#">Home</a></li>
+						
+						<li onMouseOver="javascript:showMenu('drop1')" onMouseOut="javascript:hideMenu('drop1')"><a href="#">Member</a>
+							<ul id="drop1">
+							  <li><a href="#">Verified</a></li>
+							  <li><a href="#">Not Verified</a></li>
+							  <li><a href="#">Both</a></li>
+							</ul>
+						</li>
+						
+						<li onMouseOver="javascript:showMenu('drop2')" onMouseOut="javascript:hideMenu('drop2')"><a href="#">Advertisement</a>
+							<ul id="drop2">
+							  <li><a href="#">Volunteer</a></li>
+							  <li><a href="#">Paid Helper</a></li>
+							  <li><a href="#">Help Seeker</a></li>
+							</ul>
+						</li>
+						
+						<li onMouseOver="javascript:showMenu('drop3')" onMouseOut="javascript:hideMenu('drop3')"><a href="#">Additional Help</a>
+							<ul id="drop3">
+							  <li><a href="#">Accommodation</a></li>
+							  <li><a href="#">Health</a></li>
+							  <li><a href="#">Food</a></li>
+							  <li><a href="#">Official</a></li>
+							  <li><a href="#">Shopping</a></li>
+							  <li><a href="#">Travel</a></li>
+							</ul>
+						</li>
+						<li onMouseOver="javascript:showMenu('')" onMouseOut="javascript:hideMenu('')"><a href="#">Game</a></li>
+					</ul>
+				</div>
+				
+				<div>
+					<button id = "register-button" name="Register" type="submit" value="Register"><a href="#">Register</a></button>
+				</div>
+				
+				<div id = "login">
+					<form method="post" action="demoform.asp">
+						<div>
+						  <label for="usrnm" class="ui-hidden-accessible">Username:</label>
+						  <input type="text" name="user" id="usrnm" placeholder="Username"></br>
+						  <label for="pswd" class="ui-hidden-accessible">Password:</label>
+						  <input id = "placeholder" type="password" name="passw" id="pswd" placeholder="Password"></br>
+						  <label id = "logged-in" for="log">Keep me logged in</label>
+						  <input type="checkbox" name="login" id="log" value="1" data-mini="true">
+						  <input id = "login-input" type="submit" data-inline="true" value="Login">
+						</div>
+					</form>
+				</div>
+			</div>
+			
+		</div>
+
+		<div class="container" id = "image-slider">
+		  <div id="myCarousel" class="carousel slide">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+			  <li class="item1 active"></li>
+			  <li class="item2"></li>
+			  <li class="item3"></li>
+			  <li class="item4"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+
+			  <div class="item active">
+				<img src="img/IMG_0093.jpg" alt="Konstanz" width="460" height="345">
+				<div class="carousel-caption">
+				  <h3>Konstanz</h3>
+				  <p>Schön Bodensee</p>
+				</div>
+			  </div>
+
+			  <div class="item">
+				<img src="img/IMG_0089.jpg" alt="Konstanz" width="460" height="345">
+				<div class="carousel-caption">
+				  <h3>Konstanz</h3>
+				  <p>Schön Bodensee</p>
+				</div>
+			  </div>
+			
+			  <div class="item">
+				<img src="img/IMG_0091.jpg" alt="Konstanz" width="460" height="345">
+				<div class="carousel-caption">
+				  <h3>Konstanz</h3>
+				  <p>Schön Bodensee</p>
+				</div>
+			  </div>
+
+			  <div class="item">
+				<img src="img/IMG_0092.jpg" alt="Konstanz" width="460" height="345">
+				<div class="carousel-caption">
+				  <h3>Konstanz</h3>
+				  <p>Schön Bodensee</p>
+				</div>
+			  </div>
+		  
+			</div>
+
+			<!-- Left and right controls -->
+			<a class="left carousel-control" href="#myCarousel" role="button">
+			  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			  <span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#myCarousel" role="button">
+			  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			  <span class="sr-only">Next</span>
+			</a>
+		  </div>
+		</div>
+		<script src="js/carousel.js" type="text/javascript"></script>
+		
+		<br class = "clearFloat">
+		
+		<footer id = "footer" class="container-fluid text-center">
+			<!-- <a href="#myPage" title="To Top">
+				<span class="glyphicon glyphicon-chevron-up"></span>
+			</a> -->
+			<p>BuddNest Theme Made By <a href="https://www.facebook.com/BuddyNest-1487537081548086/" target="_blank" title="BuddNest"> BuddyNest</a> Copyright &copy; BuddyNest</p>
+		</footer>
+		
+		<script src="js/scroll.js" type="text/javascript"></script>
+	</body>
+	
+</html>

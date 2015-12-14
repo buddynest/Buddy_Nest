@@ -1,0 +1,198 @@
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 14px;
+}
+
+body{
+	background-color: #eff5f9;
+}
+
+.headMenu {
+	background-color: #1abc9c;
+	height: 100px;
+	border-bottom: 0px;
+	padding-left: auto;
+	padding-right: auto;
+	width: 100%;
+}
+
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+#login {
+	position: absolute;
+	right: 25px;
+	top: 12px;
+}
+#login label {
+	color: #FFF;
+}
+#placeholder {
+	/* position: absolute; */
+	right: 150px;
+	top: 123px;
+}
+#logged-in {
+	/* position: absolute; */
+	right: 100px;
+	top: 100px;
+}
+.logo {
+	width: 125px;
+}
+
+.logo img {
+	width: 170px;
+	height: 100px;
+}
+
+.search_box {
+	position: absolute;
+	top: 65px;
+	margin-left: 219px;
+}
+
+.search_box input {
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+#menu {
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	top: 0px;
+	right: 182px;
+	height: 37px;
+	padding-top: 0px;
+	padding-right: 10%;
+}
+#menu ul {
+	margin: 0;
+	padding: 0;
+	line-height: 18px;
+}
+#menu li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	position: relative;
+	background-color: #20B2AA;
+}
+#menu  ul li{
+	background-color: #1abc9c;
+	float: left;
+	text-align: center;
+	text-color: #FFF;
+	width: 137px;
+	list-style-type: none;
+	border-right: 1px solid #FFF;
+	position: relative;
+}
+#menu ul li a {
+	text-align: center;
+	display: block;
+	padding: 7px;
+	color: #FFF;
+	text-decoration:none;
+}
+
+#menu a:hover {
+	color: #8fcf8a;
+}
+#menu ul ul{
+display: none;
+position: absolute;
+
+}
+#menu li ul {
+	
+	position:absolute;
+}
+#register-button {
+	position: absolute;
+	right: 316px;
+	top: 68px;
+	border-radius: 1px;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+}
+#register-button  a{
+	text-decoration: none;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+#login-input {
+	border-radius: 1px;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+h2 {
+	font-family: Arial, Helvetica, Sans-Serif;
+	font-size: 18px;
+	padding: 8px;
+	color: #469a3f;
+}
+
+input [type = "text"] {
+	background-color: #FFFFFF;
+	border: 1px solid #8fcf8a;
+	font-size: 15px;
+	padding: 5px;
+	width: 300px;
+	margin-bottom: 3px;
+	margin-top: 3px;
+	outline: none;
+}
+
+input [type = "text"]:hover {
+	border: 1px solid #8fcf8a;
+}
+
+input [type = "submit"] {
+	background-color: #7ec778;
+	border: 1px solid #8fcf8a;
+	font-size: 15px;
+	color: #FFFFFF;
+	padding: 5px;
+	margin-bottom: 3px;
+	margin-top: 3px;
+	border-radius: 5px;
+}
+.clearFloat {
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+#image-slider {
+	padding-top: 140px;
+    padding-bottom: 120px;
+}
+/* footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f4511e;
+} */
+.container-fluid {
+	background-color: #1abc9c;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
